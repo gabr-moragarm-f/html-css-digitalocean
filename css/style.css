@@ -1,0 +1,26 @@
+.gr-navbar a{
+  color: #031C4E;
+}
+
+.gr-navbar .navbar-brand img{
+  height: 100%;
+}
+
+.gr-navbar .navbar-toggle .icon-bar{
+  background-color: #5B6987;
+}
+
+a.signup-btn{
+  border:1px solid #006AFF;
+  color: #006AFF;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .gr-navbar .navbar-header{
+    width: 100%;
+  }
+
+  .gr-navbar .navbar-toggle{
+    display: block;
+  }
+}
