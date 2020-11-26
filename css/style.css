@@ -1,6 +1,7 @@
 body{
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  /* font-weight: 700; */
+  color: #031C4E;
 }
 
 a{
@@ -92,6 +93,31 @@ h1{
 
 .customers-img img{
   width: 100%;
+}
+
+.showing-main .heading{
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.showing-main nav{
+  padding-bottom: 15px;
+}
+
+.showing-main button{
+  background: transparent;
+  border: none;
+  display: block;
+  border-left: 2px solid #ccc;
+  padding: 10px;
+}
+
+.showing-main button:focus{
+  border-left-color: #016AFF;
+}
+
+.showing-boxes{
+  height: 230px;
 }
 
 /* Media Query */
