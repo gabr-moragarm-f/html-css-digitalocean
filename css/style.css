@@ -1,3 +1,16 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+a{
+  color: #006AFF;
+}
+
+.gr-navbar{
+  margin: 0;
+}
+
 .gr-navbar a{
   color: #031C4E;
 }
@@ -7,12 +20,63 @@
 }
 
 .gr-navbar .navbar-toggle .icon-bar{
-  background-color: #5B6987;
+  background-color: #004AFF;
 }
 
 a.signup-btn{
   border:1px solid #006AFF;
   color: #006AFF;
+}
+
+.jumbotron-bg{
+  background-image: url(../img/sfondo-pesci.svg);
+  background-size: cover;
+  background-position: center bottom;
+  padding: 75px 0;
+}
+
+h1{
+  color: #fff;
+}
+
+.gr-jumbotron{
+}
+
+.gr-jumbotron p{
+  color: #BBCBFC;
+  font-size: 18px;
+}
+
+.gr-form{
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.gr-btn{
+  background-color: #579AFF;
+  color: #fff;
+}
+
+.google-btn{
+  box-shadow: 1px 1px 2px #999;
+  color: #626262
+}
+
+.terms-service{
+  padding: 15px;
+  font-weight: normal;
+}
+
+.terms-service a{
+  text-decoration: underline;
+}
+
+/* Media Query */
+@media screen and (min-width: 1200px){
+  h1{
+    font-size: 60px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -24,3 +88,4 @@ a.signup-btn{
     display: block;
   }
 }
+/* End Media Query */
