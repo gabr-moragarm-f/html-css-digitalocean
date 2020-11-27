@@ -8,6 +8,10 @@ a{
   color: #006AFF;
 }
 
+h2{
+  text-align: center;
+}
+
 .gr-navbar{
   margin: 0;
 }
@@ -71,6 +75,10 @@ h1{
 
 .terms-service a{
   text-decoration: underline;
+}
+
+.white-bg{
+  padding: 50px 0;
 }
 
 .grey-bg{
@@ -143,6 +151,10 @@ h1{
 
 .slider-menu button:focus{
   background-color: #006AFF;
+}
+
+.features-main [class*="col-"]{
+  margin-top: 30px;
 }
 
 /* Media Query */
