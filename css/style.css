@@ -73,7 +73,7 @@ h1{
   text-decoration: underline;
 }
 
-.customers-main{
+.grey-bg{
   background: #F3F5F9;
   text-align: center;
   padding: 30px;
@@ -116,14 +116,43 @@ h1{
   border-left-color: #016AFF;
 }
 
-.showing-boxes{
-  height: 230px;
+.slider{
+  display: inline-block;
+  vertical-align: middle;
+  width: calc(100% - 50px);
+}
+
+.slider img{
+  width: 100%;
+}
+
+.gm-slider i::before{
+  font-size: 50px;
+  font-weight: bolder;
+  color: #6F7B97;
+  display: inline-block;
+}
+
+.slider-menu button{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #006AFF;
+  padding: 0;
+}
+
+.slider-menu button:focus{
+  background-color: #006AFF;
 }
 
 /* Media Query */
 @media screen and (min-width: 768px){
   .customers-img{
     width: 16%;
+  }
+
+  .showing-boxes{
+    min-height: 170px;
   }
 }
 
